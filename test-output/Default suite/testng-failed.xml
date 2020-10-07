@@ -6,7 +6,16 @@
       <class name="centrepoint.flow.AppFlowTest">
         <methods>
           <include name="selectCountry"/>
+          <include name="homePage"/>
+          <include name="selectHomeFurniture"/>
+          <include name="clickMenuOption"/>
+          <include name="clickDepartment"/>
+          <include name="goBackToShopping"/>
           <include name="launchApplication"/>
+          <include name="selectedItem"/>
+          <include name="checkoutItems"/>
+          <include name="itemInfoList"/>
+          <include name="startShopping"/>
         </methods>
       </class> <!-- centrepoint.flow.AppFlowTest -->
     </classes>
