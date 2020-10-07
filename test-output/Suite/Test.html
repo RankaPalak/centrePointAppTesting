@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 08 02:07:23 GST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>91 seconds (91174 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.checkoutItems()'><b>checkoutItems</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-402978317" onClick='toggleBox("Output-402978317", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-402978317" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402978317">
+Added Quantity and clicked for checkout<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.clickDepartment()'><b>clickDepartment</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-670689666" onClick='toggleBox("Output-670689666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-670689666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-670689666">
+Clicked on Department Link Succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.clickMenuOption()'><b>clickMenuOption</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-1478334108" onClick='toggleBox("Output-1478334108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1478334108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1478334108">
+Clicked on Home and Living option from Menu Succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.goBackToShopping()'><b>goBackToShopping</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-1417554340" onClick='toggleBox("Output-1417554340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1417554340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1417554340">
+Closed checkout page and removed the item succesfully<br/>
+Clicked on Continue Shopping and redirected to Home Page succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.homePage()'><b>homePage</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-1725054538" onClick='toggleBox("Output-1725054538", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1725054538" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1725054538">
+Clicked on continue to view Home Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.itemInfoList()'><b>itemInfoList</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-701166114" onClick='toggleBox("Output-701166114", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-701166114" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-701166114">
+Logged Price and Title for the item and selected the item<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.selectCountry()'><b>selectCountry</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-1824570614" onClick='toggleBox("Output-1824570614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1824570614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1824570614">
+Selected Location Succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.selectHomeFurniture()'><b>selectHomeFurniture</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-726051009" onClick='toggleBox("Output-726051009", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-726051009" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-726051009">
+Clicked on Home Furniture option from Sub Menu Succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.selectedItem()'><b>selectedItem</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-1017792343" onClick='toggleBox("Output-1017792343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1017792343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1017792343">
+Verfied Price and Title for the item and proceed to checkout<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+<tr>
+<td title='centrepoint.flow.AppFlowTest.startShopping()'><b>startShopping</b><br>Test class: centrepoint.flow.AppFlowTest<br/>
+<a href="#Output-1235635586" onClick='toggleBox("Output-1235635586", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1235635586" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1235635586">
+Clicked on Start on User guide Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>centrepoint.flow.AppFlowTest@4e31276e</td></tr>
+</table><p>
+</body>
+</html>

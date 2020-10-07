@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Launched Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Selected Location Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Start on User guide Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on continue to view Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Department Link Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Home and Living option from Menu Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Home Furniture option from Sub Menu Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged Price and Title for the item and selected the item]]>
+    </line>
+    <line>
+      <![CDATA[Verfied Price and Title for the item and proceed to checkout]]>
+    </line>
+    <line>
+      <![CDATA[Added Quantity and clicked for checkout]]>
+    </line>
+    <line>
+      <![CDATA[Closed checkout page and removed the item succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Continue Shopping and redirected to Home Page succesfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-10-07T22:07:23Z" name="Suite" finished-at="2020-10-07T22:08:54Z" duration-ms="91174">
+    <groups>
+    </groups>
+    <test started-at="2020-10-07T22:07:23Z" name="Test" finished-at="2020-10-07T22:08:54Z" duration-ms="91174">
+      <class name="centrepoint.flow.AppFlowTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:07:23Z" name="launchApplication" finished-at="2020-10-08T02:07:47Z" duration-ms="24417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Launched Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectCountry()[pri:0, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:07:47Z" name="selectCountry" finished-at="2020-10-08T02:07:53Z" duration-ms="6267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected Location Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectCountry -->
+        <test-method signature="startShopping()[pri:1, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:07:53Z" name="startShopping" finished-at="2020-10-08T02:07:55Z" duration-ms="1986" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Start on User guide Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startShopping -->
+        <test-method signature="homePage()[pri:2, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:07:55Z" name="homePage" finished-at="2020-10-08T02:07:57Z" duration-ms="1233" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on continue to view Home Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="clickDepartment()[pri:3, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:07:57Z" name="clickDepartment" finished-at="2020-10-08T02:08:11Z" duration-ms="14028" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Department Link Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickDepartment -->
+        <test-method signature="clickMenuOption()[pri:4, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:08:11Z" name="clickMenuOption" finished-at="2020-10-08T02:08:14Z" duration-ms="2984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Home and Living option from Menu Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickMenuOption -->
+        <test-method signature="selectHomeFurniture()[pri:5, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:08:14Z" name="selectHomeFurniture" finished-at="2020-10-08T02:08:17Z" duration-ms="3730" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Home Furniture option from Sub Menu Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectHomeFurniture -->
+        <test-method signature="itemInfoList()[pri:6, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:08:17Z" name="itemInfoList" finished-at="2020-10-08T02:08:23Z" duration-ms="5434" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged Price and Title for the item and selected the item]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- itemInfoList -->
+        <test-method signature="selectedItem()[pri:7, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:08:23Z" name="selectedItem" finished-at="2020-10-08T02:08:39Z" duration-ms="15925" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verfied Price and Title for the item and proceed to checkout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectedItem -->
+        <test-method signature="checkoutItems()[pri:8, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:08:39Z" name="checkoutItems" finished-at="2020-10-08T02:08:45Z" duration-ms="5944" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Added Quantity and clicked for checkout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutItems -->
+        <test-method signature="goBackToShopping()[pri:9, instance:centrepoint.flow.AppFlowTest@4e31276e]" started-at="2020-10-08T02:08:45Z" name="goBackToShopping" finished-at="2020-10-08T02:08:54Z" duration-ms="9174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed checkout page and removed the item succesfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Continue Shopping and redirected to Home Page succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goBackToShopping -->
+      </class> <!-- centrepoint.flow.AppFlowTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
